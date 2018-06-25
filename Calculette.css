@@ -1,0 +1,41 @@
+html,body {  
+    height:100%;
+    text-align:center;
+}
+
+
+table {
+    margin-left:auto; margin-right:auto;
+    font-size:25pt;
+    font-weight: bold;
+    background-color: black;
+    font-family: Arial, "MS Trebuchet", sans-serif;
+}
+
+th {
+    margin: 0px;
+    background-color:grey;
+    color: #EEE;
+    text-align: right;
+    height: 50px;
+    padding: 5px 0px;
+    max-width:300px;
+}
+
+td {
+    margin: auto auto;
+    background-color: #EEE;
+    color: green;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    width:75px;
+}
+
+td:hover {
+    background-color: #DDD;
+}
+
+td:active {
+    background-color: #AAA;
+}
